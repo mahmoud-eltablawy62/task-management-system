@@ -591,7 +591,8 @@
       "TaskManagementSystem.Services/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
-          "TaskManagementSystem.Core": "1.0.0"
+          "TaskManagementSystem.Core": "1.0.0",
+          "TaskManagementSystem.Repository": "1.0.0"
         },
         "runtime": {
           "TaskManagementSystem.Services.dll": {}

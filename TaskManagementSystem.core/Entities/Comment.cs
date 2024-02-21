@@ -10,5 +10,7 @@ namespace TaskManagementSystem.core.Entities
     {
         public string Text { get; set; }
         public DateTimeOffset TimeOfComment { get; set; } = DateTimeOffset.UtcNow;  
+        public int Taskats_Id { get; set; }
+        public  Taskat  Taskats { get; set; }
     }
 }

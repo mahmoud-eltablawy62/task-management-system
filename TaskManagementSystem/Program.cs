@@ -8,10 +8,15 @@ using Talabat.Repository.Data;
 using TaskManagementSystem.api.Extensions;
 using TaskManagementSystem.api.MiddleWares;
 using TaskManagementSystem.core.Entities;
+using TaskManagementSystem.Core;
 using TaskManagementSystem.Core.Entities.Identity;
+using TaskManagementSystem.Core.Services.Contract;
+using TaskManagementSystem.Repository;
 using TaskManagementSystem.Repository.Data;
 using TaskManagementSystem.Repository.Data.Config;
 using TaskManagementSystem.Repository.Identity;
+using TaskManagementSystem.Repository.Repo.Contract;
+using TaskManagementSystem.Services;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace TaskManagementSystem
@@ -29,7 +34,12 @@ namespace TaskManagementSystem
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-           builder.Services.AddHttpsRedirection(options =>
+            builder.Services.AddScoped(typeof(IGenaricRepo<>), typeof(GenaricRepo<>));
+            builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+            builder.Services.AddScoped(typeof(ITaskService), typeof(TaskServices));
+
+
+            builder.Services.AddHttpsRedirection(options =>
             {
                 options.HttpsPort = 443;
             });

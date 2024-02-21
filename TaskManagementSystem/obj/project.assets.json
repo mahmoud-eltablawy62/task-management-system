@@ -1020,7 +1020,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
-          "TaskManagementSystem.Core": "1.0.0"
+          "TaskManagementSystem.Core": "1.0.0",
+          "TaskManagementSystem.Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TaskManagementSystem.Services.dll": {}

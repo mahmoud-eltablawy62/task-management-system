@@ -175,6 +175,9 @@
             "projectReferences": {
               "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
                 "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj"
+              },
+              "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj": {
+                "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj"
               }
             }
           }

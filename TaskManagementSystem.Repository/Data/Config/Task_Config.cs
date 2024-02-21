@@ -10,10 +10,7 @@ namespace TaskManagementSystem.Repository.Data.Config
         {
             builder.HasOne(P => P.Category)
                 .WithMany()
-                .HasForeignKey(P => P.CategoryId);
-            builder.HasOne(P => P.Comment)
-               .WithMany()
-               .HasForeignKey(P => P.CategoryId);
+                .HasForeignKey(P => P.CategoryId);  
             
         }
     }

@@ -43,3 +43,5 @@ E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\obj
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\obj\Debug\net6.0\refint\TaskManagementSystem.Services.dll
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\obj\Debug\net6.0\TaskManagementSystem.Services.pdb
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\obj\Debug\net6.0\ref\TaskManagementSystem.Services.dll
+E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\bin\Debug\net6.0\TaskManagementSystem.Repository.dll
+E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.Services\bin\Debug\net6.0\TaskManagementSystem.Repository.pdb
