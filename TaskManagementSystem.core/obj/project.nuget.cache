@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZWqjFauFwINysyRPCe9vVBG7jAQDUOBdS41JtMzcVLpxaTbYZcYK/4WhM1ykf9tJbfEiicoyhxAHR7WnYyVJw==",
+  "dgSpecHash": "nhyuFXB/U8sp2uQZZjO87UrPF2CkPqvrtcvYNk+LpE6X3+F0o8yy6XAaPVstKjWTRlKSnA89Nc8eMENRmyowLA==",
   "success": true,
-  "projectFilePath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
+  "projectFilePath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.26\\microsoft.aspnetcore.cryptography.internal.6.0.26.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.26\\microsoft.aspnetcore.cryptography.keyderivation.6.0.26.nupkg.sha512",

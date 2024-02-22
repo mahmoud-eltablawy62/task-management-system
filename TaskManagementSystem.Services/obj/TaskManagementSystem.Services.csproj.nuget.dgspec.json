@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj": {}
+    "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj": {}
   },
   "projects": {
-    "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
+    "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
+        "projectUniqueName": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
         "projectName": "TaskManagementSystem.Core",
-        "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
+        "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
-        "outputPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\obj\\",
+        "outputPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj": {
+    "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj",
+        "projectUniqueName": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj",
         "projectName": "TaskManagementSystem.Repository",
-        "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj",
+        "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
-        "outputPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\obj\\",
+        "outputPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
-                "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj"
+              "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
+                "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj": {
+    "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj",
+        "projectUniqueName": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj",
         "projectName": "TaskManagementSystem.Services",
-        "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj",
+        "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Services\\TaskManagementSystem.Services.csproj",
         "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
-        "outputPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Services\\obj\\",
+        "outputPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,11 +173,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
-                "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj"
+              "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj": {
+                "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.core\\TaskManagementSystem.Core.csproj"
               },
-              "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj": {
-                "projectPath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj"
+              "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj": {
+                "projectPath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj"
               }
             }
           }

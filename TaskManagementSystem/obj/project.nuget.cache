@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i1H70lalSSr5ovG3Fsez57AxmuYMK5Nlq+IMzaFDqmT9z4CE6jkFqM+ZcO/oWO+UmEJk5i09Vt61pi1Sf7cHJw==",
+  "dgSpecHash": "GJpk9bg5kfN3SghACp7cmb0LP60kT4kTlO8+eJUy6gbptvZMGPSXCV274QTT8m5rrgUFiYaL5tb7a0KPQ23AEw==",
   "success": true,
-  "projectFilePath": "E:\\Task_Management System\\TaskManagementSystem\\TaskManagementSystem\\TaskManagementSystem.api.csproj",
+  "projectFilePath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem\\TaskManagementSystem.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hello\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.25\\microsoft.aspnetcore.authentication.google.6.0.25.nupkg.sha512",

@@ -34,3 +34,16 @@ E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.core\obj\Deb
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.core\obj\Debug\net6.0\refint\TaskManagementSystem.Core.dll
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.pdb
 E:\Task_Management System\TaskManagementSystem\TaskManagementSystem.core\obj\Debug\net6.0\ref\TaskManagementSystem.Core.dll
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\bin\Debug\net6.0\TaskManagementSystem.Core.deps.json
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\bin\Debug\net6.0\TaskManagementSystem.Core.dll
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\bin\Debug\net6.0\TaskManagementSystem.Core.pdb
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.csproj.AssemblyReference.cache
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.AssemblyInfoInputs.cache
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.AssemblyInfo.cs
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.csproj.CoreCompileInputs.cache
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.sourcelink.json
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.dll
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\refint\TaskManagementSystem.Core.dll
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\TaskManagementSystem.Core.pdb
+E:\Task_Management System\task-management-system\TaskManagementSystem.core\obj\Debug\net6.0\ref\TaskManagementSystem.Core.dll
