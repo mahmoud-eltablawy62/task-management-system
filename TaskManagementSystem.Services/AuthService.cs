@@ -1,19 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using TaskManagementSystem.core.Entities;
-
 using TaskManagementSystem.core.Services.Contract;
 using TaskManagementSystem.Core.Entities.Identity;
-
-
 
 namespace TaskManagementSystem.Services
 {
@@ -27,24 +19,23 @@ namespace TaskManagementSystem.Services
         public async Task<string> CreateTokenAsync(User userApp, UserManager<User> userManager)
         {
 
-            //// private claims 
             var _Claims = new List<Claim>()
             {
 
-            new Claim (ClaimTypes.GivenName , userApp.UserName), ////تحديد اسم اليوزر وتخزينه 
+            new Claim (ClaimTypes.GivenName , userApp.UserName),  
 
-            new Claim (ClaimTypes.Email , userApp.Email)  //////   تحديد الايميل وتخزينه
+            new Claim (ClaimTypes.Email , userApp.Email)  
                                                           
             };
 
             var User_Role = await userManager.GetRolesAsync(userApp);
-            //////تحديد كل شخص هل هو يوزر ولا ادمن 
+            
             foreach (var role in User_Role)
             {
-                _Claims.Add(new Claim(ClaimTypes.Role, role)); ////// هتعمل لوب علشان تضيف للي داخل جواه الكلامز هو يوزر ولا ادمن 
+                _Claims.Add(new Claim(ClaimTypes.Role, role));  
             }
 
-            /////// Signtuare Part
+        
 
             var AuthKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_Config["JWT:SecretKey"]));
             var token = new JwtSecurityToken(

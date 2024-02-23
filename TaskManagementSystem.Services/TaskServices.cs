@@ -31,14 +31,16 @@ namespace TaskManagementSystem.Services
             await _Unit.Repo<Taskat>().Add(task);
             await _Unit.CompleteAsync();
             return task;
-        }
+        }   
 
-        public async Task<Category?> AddCategory(string name, string description)
+        public void Delete(Taskat task)=>
+            _Unit.Repo<Taskat>().Delete(task);
+
+        public Taskat Update(Taskat taskat)
         {
-            var category = new Category(name , description);
-            await _Unit.Repo<Category>().Add(category); 
-            await _Unit.CompleteAsync();    
-            return category;    
+            _Unit.Repo<Taskat>().Update(taskat);
+            _Unit.CompleteAsync();
+            return taskat;
         }
     }
 }

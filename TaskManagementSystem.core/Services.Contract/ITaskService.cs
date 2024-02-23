@@ -13,6 +13,9 @@ namespace TaskManagementSystem.Core.Services.Contract
         Task<Taskat?> CreateTaskAsync(int Cat_Id , string user_email , string title, string des , DateTime deadline  );
         Task<IReadOnlyList<Taskat>> GetAllTasksAsync();
         Task<Taskat?> GetOrderById(int Id);
-        Task<Category?> AddCategory(string name, string description); 
+        void Delete(Taskat task);
+        Taskat Update(Taskat taskat);
+
+        
     }
 }
