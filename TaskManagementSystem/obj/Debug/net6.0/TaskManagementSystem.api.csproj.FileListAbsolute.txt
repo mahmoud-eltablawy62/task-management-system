@@ -321,3 +321,4 @@ E:\Task_Management System\task-management-system\TaskManagementSystem\obj\Debug\
 E:\Task_Management System\task-management-system\TaskManagementSystem\obj\Debug\net6.0\TaskManagementSystem.api.pdb
 E:\Task_Management System\task-management-system\TaskManagementSystem\obj\Debug\net6.0\TaskManagementSystem.api.genruntimeconfig.cache
 E:\Task_Management System\task-management-system\TaskManagementSystem\obj\Debug\net6.0\ref\TaskManagementSystem.api.dll
+E:\Task_Management System\task-management-system\TaskManagementSystem\bin\Debug\net6.0\AutoMapper.dll

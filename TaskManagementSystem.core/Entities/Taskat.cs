@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TaskManagementSystem.Core.Entities.Identity;
 
 namespace TaskManagementSystem.core.Entities
 {
@@ -21,14 +22,17 @@ namespace TaskManagementSystem.core.Entities
             CategoryId = categoryid;
         }
 
+      
+
         public string User_Email { get; set; }
         public string Title { get; set; }   
         public string Description { get; set; } 
         public DateTime DeadLine { get; set; }
         public DateTimeOffset PublishDate {get; set;} = DateTimeOffset.UtcNow;
         public int CategoryId { get; set; }
-        public Category Category { get; set; }       
-           
+        public Category Category { get; set; }                  
         public Status Status { get; set; } = Status.InProgress;   
+        public string ? AssignUserId { get; set; }  
+      
     }
 }

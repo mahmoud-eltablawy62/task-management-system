@@ -32,7 +32,7 @@ namespace TaskManagementSystem.Repository
 
 
         public IGenaricRepo<TEntity> Repo<TEntity>() where TEntity : BaseClass
-        {
+         {
             var key = typeof(TEntity).Name;
 
             if (!_Repo.ContainsKey(key))

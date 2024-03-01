@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GJpk9bg5kfN3SghACp7cmb0LP60kT4kTlO8+eJUy6gbptvZMGPSXCV274QTT8m5rrgUFiYaL5tb7a0KPQ23AEw==",
+  "dgSpecHash": "aawrChQ/R1V9tZVYnYZ+nW9elj62SLbMZLsMiAHeU13aEkR7lMI6aNi7UaFjP6EElt5tjcyL9CpUMjUC67WXEg==",
   "success": true,
   "projectFilePath": "E:\\Task_Management System\\task-management-system\\TaskManagementSystem\\TaskManagementSystem.api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hello\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.25\\microsoft.aspnetcore.authentication.google.6.0.25.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.25\\microsoft.aspnetcore.authentication.jwtbearer.6.0.25.nupkg.sha512",

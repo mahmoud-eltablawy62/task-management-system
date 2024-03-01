@@ -8,9 +8,11 @@ using TaskManagementSystem.Services;
 
 namespace TaskManagementSystem.api.Controllers
 {
+
     [Authorize(Roles = "Admin")]
     public class CategoryController : BController
     {
+
         private readonly ICategoryService _CatService;    
         public CategoryController(ICategoryService CatService)
         {
@@ -23,6 +25,23 @@ namespace TaskManagementSystem.api.Controllers
             var category = await _CatService.AddCategory(dto.Name, dto.Description);
             return Ok(category);
         }
+
+        [HttpPut("{Id}")]
+        public async Task<ActionResult<Category>> UpdateCategory(int Id, Category Dto)
+        {
+            var cat = await _CatService.GetOrderById(Id);
+            if (cat == null)
+            {
+                return BadRequest("Not Found");
+            }
+            cat.Description = Dto.Description;
+            cat.Name = Dto.Name;
+
+            _CatService.UpdateCat(cat);
+
+            return Ok(cat);
+        }
+
 
         [HttpDelete("{Id}")]
         public async Task<ActionResult<Category>> DeleteCategory (int Id)
@@ -38,21 +57,6 @@ namespace TaskManagementSystem.api.Controllers
             return Ok(category);
         }
 
-        [HttpPut("{Id}")]
-        public async Task<ActionResult<Category>> UpdateTask(int Id, Category Dto)
-        {
-            var cat = await _CatService.GetOrderById(Id);
-            if (cat == null)
-            {
-                return BadRequest("Not Found");
-            }
-            cat.Description = Dto.Description;
-            cat.Name = Dto.Name;
-            
-            _CatService.UpdateCat(cat);
-
-            return Ok(cat);
-        }
-
+      
     }
 }

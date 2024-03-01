@@ -17,7 +17,10 @@ using TaskManagementSystem.Repository.Data.Config;
 using TaskManagementSystem.Repository.Identity;
 using TaskManagementSystem.Repository.Repo.Contract;
 using TaskManagementSystem.Services;
+using AutoMapper;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
+
 
 namespace TaskManagementSystem
 {
@@ -33,6 +36,7 @@ namespace TaskManagementSystem
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddAutoMapper(typeof(Program));
 
             builder.Services.AddScoped(typeof(IGenaricRepo<>), typeof(GenaricRepo<>));
             builder.Services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
@@ -80,12 +84,11 @@ namespace TaskManagementSystem
 
             var _IdentityContext = services.GetRequiredService<UserDbContext>();
 
-
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
             try
             {
-                await _dbContext.Database.MigrateAsync();
-                
+                await _dbContext.Database.MigrateAsync();           
                 await _IdentityContext.Database.MigrateAsync();
                 var _user_manager = services.GetRequiredService<UserManager<User>>();
                 await UserContextSeed.UserSeedAsync(_user_manager); ;

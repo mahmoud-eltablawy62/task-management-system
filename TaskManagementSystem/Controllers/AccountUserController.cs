@@ -68,7 +68,6 @@ namespace TaskManagementSystem.api.Controllers
             if (Result.Succeeded is false) { return BadRequest(new ApiResponse(400)); }
 
 
-
             return Ok(new UserDto()
             {
                 Name = user.Name,

@@ -28,7 +28,7 @@ namespace TaskManagementSystem.api.MiddleWares
 
                 context.Response.ContentType = "application/json";
                 context.Response.StatusCode =  (int) HttpStatusCode.InternalServerError;
-                var response = env.IsDevelopment() ?
+                 var response = env.IsDevelopment() ?
                     new ApiExcaptionResponse((int)HttpStatusCode.InternalServerError, ex.Message, ex.StackTrace.ToString()) :
                     new ApiExcaptionResponse((int)HttpStatusCode.InternalServerError);
 
