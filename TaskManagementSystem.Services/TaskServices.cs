@@ -79,10 +79,10 @@ namespace TaskManagementSystem.Services
 
         public  void GetTaskByDeadLineAndDeleteAsync(DateTime deadline)
         {
-            var tasks = _TasksContext.Products.Where(t => t.DeadLine == deadline).ToList();
+            var tasks = _TasksContext.Tasks.Where(t => t.DeadLine == deadline).ToList();
             foreach (var task in tasks)
             {
-                _TasksContext.Products.Remove(task);
+                _TasksContext.Tasks.Remove(task);
             }
            _Unit.CompleteAsync();
         }

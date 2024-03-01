@@ -21,11 +21,10 @@ namespace Talabat.Repository.Data
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
-        public DbSet<Taskat> Products { get; set; }
-        public DbSet<Team> Teams { get; set; }
+        public DbSet<Taskat> Tasks { get; set; }
+       
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Project> Projects { get; set; }
-        public DbSet<Comment> Comments { get; set; }
+      
 
     }
 }
